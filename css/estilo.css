@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre&family=Kanit:wght@200;400;600&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: #FFFFFF url("../images/back-img.jpg") no-repeat left top /100% fixed;
+    font-family: 'Averia Serif Libre', cursive !important;
+}
+
+.backContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    color: white;
+
+    /* background-color: rgb(29, 29, 29); */
+}
+
+.logo {
+    padding-left: .75em;
+}
+
+.navbar,
+.navbar .nav,
+.navbar span,
+.navbar ul a {
+    background-color: black;
+    color: white;
+}
+
+#navbarNav .nav-item:hover a {
+    color: gray;
+}
+
+.btn{
+    border-radius: 4px !important;
+}
+
+.btn-dark {
+    background-color: black !important;
+}
+
+.btn-dark:hover {
+    background-color: rgb(17, 17, 17) !important;
+}
+
+.backMain {
+    display: flex;
+    flex-direction: column;
+    height: 100vmax;
+    margin: auto;
+    background-color: rgba(19, 19, 19, 0.4);
+}
+
+.main {
+    padding: 0 .75em;
+}
+
+.carousel-indicators button {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 100% !important;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    margin-top: auto;
+    padding: 1.25em;
+}
